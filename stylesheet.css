@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: hsla(119, 100%, 24%, 90%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    padding: 20px;
+    border: solid 3px black;
+}
+
+.nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 1em;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+.nav a:link{
+    text-decoration: underline;
+}
+.nav a:visited {
+    color: green;
+}
+.nav a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+.body {
+    background-color: hsla(119, 100%, 24%, 90%);
+    height: 600px;
+    border: solid 3px black;
+    padding: 2px;
+}
+
+img {
+    float: left;
+    margin: 20px;
+    border: solid 3px black;
+}
+.logo{
+float:left;
+margin: 20px;
+border: none;
+}
+
+
+.intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1em;
+    width: 600px;
+    margin: auto;
+}
+
+.education{
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    color: green;
+    padding: 15px;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+.experience {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 600px;
+    margin: auto;
+}
+
+.employer, .extra, .jmcc {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+    text-align: left;
+    margin: auto;
+    padding: 3px;
+}
+
+.classes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 600px;
+    margin: auto;
+}
+.sched{
+    background-color: rgb(191, 196, 192);
+    color: green;
+}
+.code {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.extracurricular {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: left;
+    width: 600px;
+    margin: auto;
+}
+
+.footer {
+    background-color: hsla(119, 100%, 24%, 90%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    border: solid 3px black;
+    margin-top: 10px;
+}
